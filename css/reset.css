@@ -1,0 +1,48 @@
+@charset "utf-8";
+/* 初始化 */
+body, ul, ol, li, p, dl, dt, dd, input, form, h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+	padding: 0;
+}
+img {
+	border: none;
+	transition:2s;
+}
+img:hover{opacity:.8; transition:2s;}
+
+ul {
+	list-style: none;
+}
+body {
+	color: #333;
+	font-size: 12px;
+	line-height: 1.7em;
+}
+a {
+	text-decoration: none;
+	color: #707273;
+}
+a:hover {
+	text-decoration: none;
+}
+input:focus {
+	outline: none
+}
+.fl {
+	float: left
+}
+.fr {
+	float: right
+}
+.abs {
+	position: absolute
+}
+.rel {
+	position: relative
+}
+.clear {
+	clear: both;
+	height: 0;
+	overflow: hidden
+}
+.center{width:1002px; margin:0 auto;}
